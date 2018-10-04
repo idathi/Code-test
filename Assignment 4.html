@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Assignment 4
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+<h1>Assignment 4</h1>
+    
+    <h3>Register</h3>
+
+    <form>
+            
+        <label for="Last name">First name:</label>
+        <input name="First name" id="first name" type="text" placeholder="Ida" required>
+
+        <label for="Last name">Last name:</label>
+        <input name="Last name" id="Last name" type="text" placeholder="Thidblom" required>
+
+<div> <label for="Male">Male</label>
+    <input name="Gender" id="Male" type="radio" value="Male">
+
+    <label for="Female">Female</label>
+    <input name="Gender" id="Female" type="radio" value="Female">
+
+    <label for="Other">Other</label>
+    <input name="Gender" id="Other" type="radio" value="Other">
+</div>
+        
+ <div>    <label for="username">Email </label>        
+        <input id="username" type="Email" placeholder="Email" required>
+
+        <label for="password"> Password</label>
+         <input id="password" type="password" pattern=".{5,10}" placeholder="Password" required title="Password must be between 5-10 characters">
+ </div>
+    
+ <div>
+    <label>Birthday:
+        <select name="Year">
+            <option>Year</option>
+            <option>1990</option>
+            <option>1991</option> 
+            <option>1992</option>
+        </select>
+
+        <select name="Month">
+            <option>Month</option>
+            <option>December</option>
+            <option>January</option>
+            <option>February</option>
+        </select>
+
+        <select name="Day">
+            <option>Day</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+        </select>
+    </label>
+</div>
+   
+<div> <label for="dogs">I agree to the terms:</label>
+    <input type="checkbox">
+</div>
+
+<div> 
+    <input type="submit">
+</div>
+
+
+    </form>
+
+</body>
+</html>
